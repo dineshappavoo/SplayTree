@@ -7,7 +7,7 @@ import java.io.File;
 import java.util.Scanner;
 
 /**
- * @author Dany
+ * @author Dinesh Appavoo
  *
  */
 public class SplayOperations {
@@ -19,7 +19,7 @@ public class SplayOperations {
 		// TODO Auto-generated method stub
 
 		long inTime=System.currentTimeMillis();
-		Long result=new SplayOperations().operateOnBalancedTrees("/users/dany/downloads/sskew.txt");
+		Long result=new SplayOperations().operateOnBalancedTrees("/input/sskew.txt");
 		System.out.println("Total Result : "+result);
 		long pTime=System.currentTimeMillis();
 		System.out.println("Time in Milli Secs "+(pTime-inTime));
@@ -81,6 +81,7 @@ public class SplayOperations {
 		System.out.println(splayTree.findMin());
 		System.out.println(splayTree.findMax());
 		splayTree.remove(13L);
+		System.out.println(splayTree.find(13L));
 		System.out.println(splayTree.size());
 
 
