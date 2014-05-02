@@ -68,5 +68,23 @@ public class SplayOperations {
 
 		return nTotalOperationResult;
 	}
+	
+	public void testSplayTree()
+	{
+		SplayTree<Long, Long> splayTree=new SplayTree<Long, Long>();
+		
+		splayTree.insert(10L, 25L);
+		splayTree.insert(12L, 35L);
+		splayTree.insert(13L, 45L);
+		splayTree.insert(14L, 55L);
+		System.out.println(splayTree.find(10L));
+		System.out.println(splayTree.findMin());
+		System.out.println(splayTree.findMax());
+		splayTree.remove(13L);
+		System.out.println(splayTree.size());
+
+
+		
+	}
 
 }
