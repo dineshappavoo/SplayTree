@@ -4,7 +4,7 @@
 package splay;
 
 /**
- * @author Dany
+ * @author Dinesh Appavoo
  *
  */
 class BinaryNode<T extends Comparable<T>, U extends Comparable<U>>
